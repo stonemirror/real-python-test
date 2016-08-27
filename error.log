@@ -1,0 +1,23 @@
+
+404 error at 27-08-2016 09:02:02: http://localhost:5000/does_not_exist404 error at 27-08-2016 09:04:37: http://localhost:5000/does_not_exist_either
+404 error at 27-08-2016 09:06:13: http://localhost:5000/undefined
+404 error at 27-08-2016 09:06:14: http://localhost:5000/undefined
+404 error at 27-08-2016 09:06:14: http://localhost:5000/undefined
+404 error at 27-08-2016 09:06:15: http://localhost:5000/undefined
+404 error at 27-08-2016 09:06:17: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:27: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:30: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:30: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:30: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:44: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:44: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:47: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:47: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:47: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:52: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:06:58: http://localhost:5000/register/undefined
+404 error at 27-08-2016 09:07:01: http://localhost:5000/undefined
+404 error at 27-08-2016 09:07:07: http://localhost:5000/undefined
+404 error at 27-08-2016 09:07:07: http://localhost:5000/undefined
+404 error at 27-08-2016 09:07:07: http://localhost:5000/undefined
+500 error at 27-08-2016 09:07:08: http://localhost:5000/

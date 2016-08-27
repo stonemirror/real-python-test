@@ -13,7 +13,9 @@ h1, h2 {
 }
 
 h1 {
-    border-bottom: 2px solid #eee
+    border-bottom: 2px solid #eee;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 h2 {
@@ -28,6 +30,9 @@ h2 {
     background: white;
 }
 
+.content {
+  padding-top: 78px;
+}
 .footer {
     padding-top: 30px;
 }
