@@ -1,7 +1,7 @@
 # project/test.py
 
 
-import os
+import os, sys
 import unittest
 
 from project import app, db
@@ -145,7 +145,10 @@ class UsersTests(unittest.TestCase):
         )
         db.session.commit()
         users = db.session.query(User).all()
-        print users
+        if sys.version_info[0] < 3:
+            print users
+        else:
+            print(users)
         for user in users:
             self.assertEquals(user.role, 'user')
 
