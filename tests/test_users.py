@@ -145,10 +145,7 @@ class UsersTests(unittest.TestCase):
         )
         db.session.commit()
         users = db.session.query(User).all()
-        if sys.version_info[0] < 3:
-            print users
-        else:
-            print(users)
+        print(users)
         for user in users:
             self.assertEquals(user.role, 'user')
 
