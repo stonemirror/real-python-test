@@ -1,0 +1,24 @@
+#
+# Specify language
+#
+language:
+  - python
+
+#
+# Specify Python version
+#
+python:
+  - "3.4"
+  - "2.7"
+
+#
+# Install dependencies
+#
+install:
+  - pip install -r requirements.txt
+
+#
+# Run tests
+#
+script:
+  - nosetests
