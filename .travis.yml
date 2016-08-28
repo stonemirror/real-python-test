@@ -1,7 +1,6 @@
 language:
 - python
 python:
-- '3.4'
 - '2.7'
 install:
 - pip install -r requirements.txt
@@ -13,4 +12,6 @@ deploy:
     secure: OkSoJAdFSXH9bv4BAuYtm2NOmrjUDCRx5UnwxKdLxPQj5iOUOfgJI6OIFX1JBbh86WMzXfvYEaCLcPG1ogGUVnhKIBiX26WdVSLv3KlT3X+LGKgyDQmvXULAJyplD1w/ZdZHMGaWkzgVQ7GNzM+5mlJnzcbH0fIN+JFbZtBZxYEzip5stozBfSe56MZWx2Nlxm7Q871NTptKOKgG0ZxwfSG//40/WRA/5RJ1ah07/KefCUATWmYbNO3MjieDpOw+hdsOvqfzGeuWnuXXjyGx6ulQUrNO15XKalLI7UhtIWsoyXyjaHea4TZ0DZhEQoufLOh86v9VIBan69PinQ861Rrjv7FEOi3p4x8yTMUZ/0Y2frva/CyMF9f2BfEYHchTksa8XyIQpmoeepcxphHoFrSFvBNpkTa5R/GkwT82EvitsM2kdWAf36MK4db2G9ubASRWm8vAjYq2QlvUbKhIBWYa/SNNBZ1OumILAIN8a7OyhO4XuI5ArdLZuW7TN1eFOkeBscrvJ43a0CraJzhs1/jYlgIp/SL9cMevFWNGeLDgqvyeytaoVNr6UCJdYyAW/PyAR4vrPeCjF19NC+mwyBR+ZQB4vwXubxqFV8rMMUzQX27S1Z98+Kf4ECwsPb3jjDiO16fcP0/DsmvBXhAe5wSzkBgkVz8ZmYNC4mrnqpk=
   app: aqueous-river-60406
   on:
+    branch: master
+    python: '2.7'
     repo: stonemirror/real-python-test
